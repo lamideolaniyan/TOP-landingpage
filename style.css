@@ -69,10 +69,11 @@ body {
 }
 
 .hero__heading {
-	font-size: 6.2rem;
+	font-size: 6.8rem;
 	color: #f9faf8;
-	font-weight: 900;
+	font-weight: 700;
 	line-height: 1;
+	letter-spacing: 2px;
 }
 
 .hero__text {
@@ -103,4 +104,46 @@ body {
 	justify-content: center;
 	padding: 10rem 25rem;
 	color: #fff;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 4rem;
+	padding: 8rem 35rem;
+}
+
+.info__heading {
+	font-size: 3.6rem;
+	font-weight: 900;
+	color: #1f2937;
+}
+
+.info__figure--container {
+	display: flex;
+	align-items: center;
+	gap: 6rem;
+}
+
+.info__figure--box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	height: 26rem;
+	width: 20rem;
+}
+.info__figure--img {
+	display: inline-block;
+	border: 2px solid #3882f6;
+	border-radius: 1rem;
+	width: 100%;
+	height: 100%;
+}
+.info__figure--caption {
+	display: inline-block;
+	text-align: center;
 }
