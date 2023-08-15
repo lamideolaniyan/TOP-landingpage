@@ -179,9 +179,6 @@ body {
 	align-items: center;
 }
 
-.cta__textbox {
-}
-
 .cta__header {
 	font-size: 3rem;
 }
@@ -205,4 +202,16 @@ body {
 	border-radius: 1rem;
 	text-align: center;
 	border: 2px solid #fff;
+}
+
+.footer {
+	background-color: #1f2937;
+	color: #f9faf8;
+	padding: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer__text {
 }
