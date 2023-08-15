@@ -1,0 +1,31 @@
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+
+body {
+	padding: 0 15rem;
+	font-family: 'Roboto', sans-serif;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__nav {
+}
+.header__nav--list {
+	text-decoration: none;
+	list-style-type: none;
+	display: flex;
+	gap: 2rem;
+}
+.header__nav--item {
+}
