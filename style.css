@@ -94,7 +94,6 @@ body {
 	background-color: #3882f6;
 	border-radius: 1rem;
 	text-align: center;
-	/* justify-self: flex-end; */
 }
 
 .hero-image {
@@ -167,4 +166,43 @@ body {
 	font-weight: 700;
 	margin-top: 3rem;
 	margin-right: 6rem;
+}
+
+.cta {
+	margin: 10rem 25rem;
+	padding: 6rem 15rem;
+	background-color: #3882f6;
+	border-radius: 1rem;
+	color: #f9faf8;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cta__textbox {
+}
+
+.cta__header {
+	font-size: 3rem;
+}
+
+.cta__text {
+	font-size: 2rem;
+}
+
+.cta__button,
+.cta__button a:link,
+.cta__button a:visited,
+.cta__button a:active,
+.cta__button a:hover {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1.8rem;
+	font-weight: 700;
+	padding: 1rem 4rem;
+	color: #f9faf8;
+	background-color: #3882f6;
+	border-radius: 1rem;
+	text-align: center;
+	border: 2px solid #fff;
 }
