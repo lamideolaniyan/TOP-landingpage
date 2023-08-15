@@ -15,10 +15,13 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	font-size: 1.6rem;
+	line-height: 1.6;
 }
 
+.padding-util {
+	padding: 2rem 25rem;
+}
 .header {
-	padding: 2rem 30rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -27,8 +30,8 @@ body {
 }
 
 .header__logo-text {
-	font-size: 4.8rem;
-	font-size: 900;
+	font-size: 2.4rem;
+	font-size: 700;
 }
 
 .header__nav {
@@ -45,4 +48,59 @@ body {
 	text-decoration: none;
 	color: #e5e7eb;
 	font-size: 1.8rem;
+}
+
+.hero {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #1f2937;
+	gap: 5rem;
+	padding-top: 12rem;
+	padding-bottom: 15rem;
+}
+
+.hero-textbox {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: start;
+	gap: 2rem;
+}
+
+.hero__heading {
+	font-size: 6.2rem;
+	color: #f9faf8;
+	font-weight: 900;
+	line-height: 1;
+}
+
+.hero__text {
+	font-size: 1.8rem;
+	color: #e5e7eb;
+}
+
+.hero__cta,
+.hero__cta a:link,
+.hero__cta:visited,
+.hero__cta:active {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1.8rem;
+	font-weight: 700;
+	color: #e5e7eb;
+	padding: 1rem 4rem;
+	background-color: #3882f6;
+	border-radius: 1rem;
+	text-align: center;
+	/* justify-self: flex-end; */
+}
+
+.hero-image {
+	background-color: #545861;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10rem 25rem;
+	color: #fff;
 }
